@@ -1,3 +1,27 @@
 body {
-    background: blue;
+    text-align: center;
+    background: whitesmoke;
 }
+
+body > div {
+    font-family: Verdana;
+    color: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+body > div > *#bio {
+    display: none;
+}
+
+.square {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 900px;
+    border-radius: 8px;
+    border-color: coral;
+    background-color: rgb(40, 40, 40);
+  }
