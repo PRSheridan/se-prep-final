@@ -13,14 +13,31 @@ body > div {
 }
 
 body > div > *#bio {
+    text-align: center;
     display: none;
+}
+
+a {
+    color: hotpink;
+  }
+
+body > div > section#details > div {
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+body > div > *#image {
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
 }
 
 .square {
     margin-left: auto;
     margin-right: auto;
-    height: 1000px;
-    width: 900px;
+    height: 900px;
+    width: 1600px;
     border-radius: 8px;
     border-color: coral;
     background-color: rgb(40, 40, 40);
