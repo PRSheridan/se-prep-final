@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: whitesmoke;
+    background: black;
 }
 
 body > div {
@@ -9,10 +9,13 @@ body > div {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 750px;
 }
 
 body > div > *#bio {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     display: none;
 }
